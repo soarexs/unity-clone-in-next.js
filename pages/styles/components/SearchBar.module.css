@@ -1,0 +1,91 @@
+.container {
+    display: flex;
+    height: 6.5rem;
+    width: 100%;
+    border-bottom: 1px solid var(--dark-line);
+    align-items: center;
+}
+
+.container .iconCompass {
+    color: var(--white);
+    margin-left: 60px;
+    font-size: 20px;
+}
+
+.container a {
+    font-size: 18px;
+    color: var(--white-alfa);
+    text-decoration: none;
+    margin: 20px;
+    font-weight: 100;
+}
+
+.container .iconDown {
+    color: var(--white);
+    margin-left: 60px;
+    font-size: 14px;
+}
+
+.container .iconSearch {
+    color: var(--white);
+    margin-left: 60px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.searchBar {
+    background: 0;
+    border: none;
+    margin-left: 20px;
+    outline: none;
+    color: white;
+}
+
+/* .searchBar:focus {
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-name: border;
+}
+
+@keyframes border {
+    from {
+        border-bottom: 0.6px solid var(--white);
+        color: white;
+        width: 100%;
+        margin-right: 100%;
+    }
+    to {
+        border-bottom: 0.6px solid var(--white);
+        color: white;
+        width: 100%;
+    }
+} */
+
+.searchBar::placeholder {
+    font-size: 14px;
+}
+
+.barContainer {
+    display: flex;
+    align-items: center;
+}
+
+.profile {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 10px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.icons {
+    color: var(--white);
+    font-size: 1.4rem;
+    margin: 25px;
+    cursor: pointer;
+}
+
+.iconsDiv {
+    margin-left: 10rem;
+}

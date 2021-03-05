@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    width: 950px;
+    height: 260px;
+    background-color: #242531;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.container span {
+    color: var(--white);
+    font-size: 22px;
+    font-weight: 400;
+    margin: 20px 0 0 30px;
+}

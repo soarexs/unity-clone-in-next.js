@@ -1,0 +1,14 @@
+.channel {
+    height: 400px;
+    width: 210px;
+    background-color: #242531;
+    position: relative;
+    margin: 30px 18px 10px;
+    border-radius: 20px;
+}
+
+.channel img {
+    border-radius: 20px 20px 0 0;
+    height: 210px;
+    position: absolute;
+}

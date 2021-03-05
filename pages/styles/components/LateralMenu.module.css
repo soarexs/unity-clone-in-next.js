@@ -1,0 +1,84 @@
+.menuContainer {
+    align-items: center;
+    justify-content: center;
+    width: 16rem;
+    height: 100%;
+    border-right: 0.4px solid var(--dark-line);
+}
+
+.menuContainer>div {
+    height: 50px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.menuContainer>div span {
+    font-size: 30px;
+    margin-left: 15px;
+    color: var(--white);
+    font-weight: 600;
+}
+
+.divFeeds>div span {
+    font-size: 14px;
+    color: var(--text);
+    font-weight: 600;
+    margin-left: 22px;
+}
+
+.divFollowings>div span {
+    font-size: 14px;
+    color: var(--text);
+    font-weight: 600;
+    margin-left: 22px;
+}
+
+.menuContainer .divFeeds {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    height: 350px;
+}
+
+.menuContainer .lineBottom {
+    height: 1px;
+    width: 12rem;
+    background: var(--text);
+}
+
+.icons {
+    font-size: 44px;
+    color: #5416ff;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-name: bg;
+}
+
+@keyframes bg {
+    0% {
+        color: #6f00ff;
+    }
+    25% {
+        color: #6800be63;
+    }
+    50% {
+        color: #9900ff;
+    }
+    100% {
+        color: #6f00ff;
+    }
+}
+
+.gripLines {
+    color: white;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.divFollowings {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    height: 400px;
+}

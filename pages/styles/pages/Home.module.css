@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+}
+
+.bar {
+    width: 100%;
+}
+
+.divImg {
+    width: 100%;
+}
+
+.channelContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerSpan .span {
+    position: relative;
+    right: 380px;
+    color: var(--white);
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0 50px;
+}
+
+.containerSpan {
+    display: flex;
+    flex-direction: column;
+    margin: 100px 0 0 0;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,73 @@
+.img {
+    width: 100%;
+}
+
+.containerImg {
+    display: flex;
+    position: relative;
+}
+
+.container {
+    position: absolute;
+    top: 38%;
+    left: 60px;
+}
+
+.container button {
+    background: rgb(255, 123, 0);
+    border: none;
+    padding: 4px;
+    width: 66px;
+    border-radius: 4px;
+    color: var(--white);
+    outline: none;
+}
+
+.container span {
+    color: var(--white);
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.divName {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.divName span {
+    color: var(--light-gray);
+    font-size: 16px;
+    margin: 0 20px;
+}
+
+.divName img {
+    border-radius: 50%;
+    height: 25px;
+}
+
+.divName .iconCountry {
+    margin: 0 0 0 20px;
+    height: 25px;
+}
+
+.divName .language {
+    color: var(--light-gray);
+    font-size: 16px;
+    margin: 0 0 0 8px;
+}
+
+.divName strong {
+    color: var(--white);
+}
+
+.container .buttonWatch {
+    background: var(--blue-dark);
+    padding: 16px;
+    width: 140px;
+    border-radius: 8px;
+    margin: 10px;
+    outline: none;
+    cursor: pointer;
+}

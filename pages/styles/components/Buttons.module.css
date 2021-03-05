@@ -1,0 +1,20 @@
+.buttonsMenu {
+    width: 13rem;
+    padding: 16px;
+    background: var(--background);
+    border-radius: 14px;
+    border: none;
+    outline: none;
+    justify-content: center;
+    text-align: justify;
+    align-items: center;
+    transition: background 0.4s;
+    margin: 8px;
+    cursor: pointer;
+}
+
+.aMenu {
+    text-decoration: none;
+    color: var(--white);
+    margin-left: 10px;
+}

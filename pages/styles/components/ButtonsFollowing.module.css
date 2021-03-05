@@ -1,0 +1,33 @@
+.buttonsMenu {
+    width: 13rem;
+    padding: 10px;
+    background: var(--background);
+    border: none;
+    outline: none;
+    justify-content: center;
+    align-items: center;
+    margin: 8px;
+    cursor: pointer;
+}
+
+.aMenu {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.profileFollowing {
+    display: flex;
+    align-items: center;
+}
+
+.profileFollowing .profile {
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    margin-right: 10px;
+}
+
+.divButtonA {
+    display: flex;
+    align-items: center;
+}
